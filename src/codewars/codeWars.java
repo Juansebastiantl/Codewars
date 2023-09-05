@@ -6,20 +6,8 @@ public class codeWars {
 		// TODO Auto-generated method stub
 		Binary binary = new Binary();
 		System.out.println(binary.getBinary(5, 9));
-		
-
-
-
-		}
-
-		
-
-	  		   
+		}	   
 	}
-
-	
-
-
 
 class Binary {
 	
