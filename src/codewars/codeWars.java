@@ -4,8 +4,8 @@ public class codeWars {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Binary binary = new Binary();
-		System.out.println(binary.getBinary(5, 9));
+		primos primos = new primos();
+		System.out.println(primos.solution(10));
 		}	   
 	}
 
@@ -65,5 +65,20 @@ class Vowels2 {
     }
 
 }
+
+class primos {
+
+	  public int solution(int number) {
+		  int suma = 0;
+		  for(int i=1;i<number;i++)
+	        {
+			  if(i%3==0) {suma = i + suma; ;}
+			  else if(i%5==0) {suma = i + suma;;}
+			  else {}
+	            
+	        }
+	    return suma;
+	  }
+	}
 
 
